@@ -1,0 +1,18 @@
+.navigation_bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5%;
+  background-color: #fafafa;
+}
+
+.options {
+  align-self: center;
+  background: white;
+  display: flex;
+  order: 1;
+}
+
+.options button {
+  border: none;
+  background-color: #fafafa;
+}

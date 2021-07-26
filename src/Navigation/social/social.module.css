@@ -1,0 +1,10 @@
+.social_link {
+  align-self: center;
+  order: 3;
+}
+
+.social_link a {
+  padding: 0 5px;
+  text-decoration: none;
+  color: #000;
+}

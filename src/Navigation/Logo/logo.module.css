@@ -1,0 +1,21 @@
+.logo_sections {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+}
+.logo_sections h1,
+.logo_sections p {
+  text-justify: center;
+  width: 100%;
+  text-align: center;
+}
+
+.logo_sections p {
+  font-size: 0.8rem;
+  font-weight: regular;
+}
+
+.logo_sections h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
