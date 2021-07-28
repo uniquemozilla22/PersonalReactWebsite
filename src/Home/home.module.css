@@ -1,0 +1,27 @@
+.home_wrap {
+  padding: 10px 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio_wrap,
+.data_wrap,
+.image_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.bio_wrap {
+  order: 1;
+}
+
+.image_wrap {
+  order: 2;
+}
+.data_wrap {
+  order: 3;
+}
+
+.image_wrap .img {
+  height: 85vh;
+}

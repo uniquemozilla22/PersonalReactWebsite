@@ -10,16 +10,13 @@ const index = () => {
   return (
     <div className={classes.navigation_links}>
       <Link path="/" className={classes.link}>
-        <WorkOutlineOutlined />
         <p>Projects</p>
       </Link>
       <Link path="/" className={classes.link}>
-        <ImportContacts fontSize={"16"} />
         <p>Blog</p>
       </Link>
       <Link path="/" className={classes.link}>
         <p>Say Hello</p>
-        <EmojiPeopleOutlined />
       </Link>
     </div>
   );

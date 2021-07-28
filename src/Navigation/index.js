@@ -11,7 +11,7 @@ const Index = () => {
     <div className={classes.navigation_bar}>
       <div className={classes.options}>
         <button onClick={() => setShowContent(!showContent)}>
-          {showContent ? <Close /> : <Sort />}
+          {showContent ? <Close className={classes.close_icon} /> : <Sort />}
         </button>
         {showContent ? <Links /> : null}
       </div>
