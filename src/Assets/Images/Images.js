@@ -1,3 +1,6 @@
 import Yogesh from "./yogesh.png";
+import description from "./description.jpg";
 
-export default Yogesh;
+const images = { Yogesh, description };
+
+export default images;

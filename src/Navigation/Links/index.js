@@ -1,11 +1,7 @@
 import React from "react";
 import classes from "./links.module.css";
 import { Link } from "react-router-dom";
-import {
-  WorkOutlineOutlined,
-  ImportContacts,
-  EmojiPeopleOutlined,
-} from "@material-ui/icons";
+
 const index = () => {
   return (
     <div className={classes.navigation_links}>

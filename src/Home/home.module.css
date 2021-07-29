@@ -1,7 +1,6 @@
 .home_wrap {
-  padding: 10px 5%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .bio_wrap,
@@ -10,6 +9,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 3% 0;
+  animation: floatwithoutbackground 6s ease-in-out infinite;
 }
 .bio_wrap {
   order: 1;
@@ -18,10 +19,98 @@
 .image_wrap {
   order: 2;
 }
+
+.bio_wrap,
+.data_wrap {
+  animation: appear 2s ease-in;
+}
+
 .data_wrap {
   order: 3;
 }
 
-.image_wrap .img {
-  height: 85vh;
+.descimage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.descimage_img .img {
+  animation: floatwithoutbackground 6s ease-in-out infinite;
+}
+
+.descimage_img {
+  display: none;
+}
+.data_img {
+  display: none;
+}
+
+@media screen and (max-width: 888px) {
+  .home_wrap {
+    flex-direction: column;
+    padding: 0 5%;
+  }
+  .data_wrap {
+    order: 2;
+  }
+  .descimage {
+    height: 80vh;
+  }
+  .descimage_img {
+    display: block;
+  }
+  .descimage_3,
+  .descimage_2,
+  .image_wrap,
+  .image-wrap img {
+    display: none;
+  }
+  .data_wrap {
+    background: white url("./yogesh.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .data_img {
+    display: block;
+    position: relative;
+    top: 10px;
+  }
+  .data_section {
+    background: white;
+  }
+}
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes floatwithoutbackground {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
