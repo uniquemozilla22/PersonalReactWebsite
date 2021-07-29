@@ -6,13 +6,13 @@ const index = () => {
   return (
     <div className={classes.social_link}>
       <Link to={"/"}>
-        <Facebook fontSize={"medium"} color={"#000"} />
+        <Facebook fontSize={"large"} />
       </Link>
       <Link to={"/"}>
-        <YouTube fontSize={"medium"} />
+        <YouTube fontSize={"large"} />
       </Link>
       <Link to={"/"}>
-        <Twitter fontSize={"medium"} />
+        <Twitter fontSize={"large"} />
       </Link>
     </div>
   );
