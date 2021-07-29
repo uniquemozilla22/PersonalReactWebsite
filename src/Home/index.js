@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../Layout";
 import classes from "./home.module.css";
-import images from "../Assets/Images/Images.js";
+import images from "../Assets/Images/images.js";
 import Data from "../Components/Data";
 
 const Index = () => {

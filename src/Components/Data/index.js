@@ -1,15 +1,21 @@
 import React from "react";
 import classes from "./data.module.css";
 
-const index = ({ title, description }) => {
+const index = ({ title, description, color }) => {
   return description.length >= 5 ? (
     <div className={classes.data_container}>
       <>
         <h1>{title}</h1>
-        <p>{description.split(".")[0]}</p>
-        <p>{description.split(".")[1]?.split(",")[0]}</p>
-        <p>{description.split(".")[1]?.split(",")[1]}</p>
-        <p>{description.split(".")[1]?.split(",")[2]}</p>
+        <p style={{ color: color }}>{description.split(".")[0]}</p>
+        <p style={{ color: color }}>
+          {description.split(".")[1]?.split(",")[0]}
+        </p>
+        <p style={{ color: color }}>
+          {description.split(".")[1]?.split(",")[1]}
+        </p>
+        <p style={{ color: color }}>
+          {description.split(".")[1]?.split(",")[2]}
+        </p>
       </>
     </div>
   ) : (

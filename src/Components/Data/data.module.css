@@ -8,7 +8,7 @@
   counter-increment: value;
 }
 .data_container h1::before {
-  content: counter(value) " ";
+  content: counter(value) "_";
   font-size: 2rem;
   font-weight: 400;
   border-radius: 50%;
@@ -50,17 +50,14 @@
     padding: 10% 0;
   }
   .data_section:first-child {
-    background: rgba(255, 255, 255, 0.401);
     animation-name: appear;
     animation-duration: 1s;
   }
   .data_section:nth-child(2) {
-    background: rgba(255, 255, 255, 0.401);
     animation-name: appear;
     animation-duration: 2s;
   }
   .data_section:nth-child(3) {
-    background: rgba(255, 255, 255, 0.401);
     animation-name: appear;
     animation-duration: 3s;
   }
