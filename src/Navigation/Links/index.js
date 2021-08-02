@@ -8,7 +8,7 @@ const index = () => {
       <Link to="/projects" className={classes.link}>
         <p>Projects</p>
       </Link>
-      <Link to="/" className={classes.link}>
+      <Link to="/blog" className={classes.link}>
         <p>Blog</p>
       </Link>
       <Link to="/" className={classes.link}>

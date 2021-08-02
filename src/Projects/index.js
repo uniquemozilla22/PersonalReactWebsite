@@ -15,14 +15,6 @@ const index = () => {
         logo={images.mero_health}
         background={`url(${images.mero_health_background})`}
       />
-      <Project
-        title={"Mero Health"}
-        description={
-          "Mero Health is a health communication application. - Chat with Doctor , - Book Appointments"
-        }
-        images={images.mero_health_gif}
-        background={`url(${images.mero_health_background})`}
-      />
     </Layout>
   );
 };
