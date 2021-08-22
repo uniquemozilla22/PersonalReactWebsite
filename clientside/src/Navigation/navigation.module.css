@@ -2,12 +2,11 @@
   display: flex;
   justify-content: space-around;
   padding: 10px 2%;
-  background-color: #fafafa;
 }
 
 .options {
   align-self: center;
-  background: #fafafa;
+  /* background: #fafafa; */
   display: flex;
   order: 1;
 }
