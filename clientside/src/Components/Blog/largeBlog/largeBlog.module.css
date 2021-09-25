@@ -1,0 +1,16 @@
+.large__imageContainer {
+  justify-self: center;
+}
+
+.image__container {
+  width: 100%;
+}
+
+.image__container img {
+  width: 100%;
+}
+
+.content__container {
+  position: relative;
+  top: 0;
+}
