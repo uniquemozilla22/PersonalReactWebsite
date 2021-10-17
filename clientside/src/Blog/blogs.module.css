@@ -1,9 +1,8 @@
 .blog_wrapper {
   display: flex;
   justify-content: space-around;
-  height: 100vh;
 }
 
 .blogContainer {
-  align-items: flex-start;
+  width: 100%;
 }

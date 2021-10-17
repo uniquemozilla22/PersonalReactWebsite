@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "../Layout";
 import Blog from "../Components/Blog";
 import classes from "./blogs.module.css";
-import Date from "../Components/Date";
 
 const index = () => {
   return (

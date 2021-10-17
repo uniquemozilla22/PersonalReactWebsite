@@ -1,0 +1,29 @@
+.smallBlog__wrapper {
+  border-radius: 1rem;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 1px 6px #2b2b2b6c;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.smallContent__container {
+  position: relative;
+  width: 100%;
+}
+.headingContainer {
+  width: 20vw;
+}
+.headingContainer h2 {
+  text-align: end;
+}
+.headingContainer h2 a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+/* End Base */
+.articleContainer {
+  width: 100%;
+}
