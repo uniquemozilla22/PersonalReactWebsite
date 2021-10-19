@@ -1,6 +1,6 @@
-const Mongoose = require("mongoose");
+const mongoose = require("mongoose");
 
-const ProfileSchema = new Mongoose.Schema({
+const ProfileSchema = new mongoose.Schema({
   image: {
     primaryImage: {
       type: String,
@@ -64,7 +64,7 @@ const ProfileSchema = new Mongoose.Schema({
   },
   projects: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: projects,
+    ref: "projects",
   },
 });
 

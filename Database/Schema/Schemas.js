@@ -1,5 +1,5 @@
 module.exports = {
-  Profile: require("./Profile/ProfileSchema.js"),
-  Blog: require("./Blog/BlogSchema.js"),
-  Project: require("./Projects/ProjectsSchema.js"),
+  ProfileModel: require("./Profile/ProfileSchema.js"),
+  BlogModel: require("./Blog/BlogSchema.js"),
+  ProjectModel: require("./Projects/ProjectsSchema.js"),
 };
